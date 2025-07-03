@@ -11,7 +11,7 @@ folder_path = 'GatePass/'
 file_list = os.listdir(folder_path)
 
 #to print the req txt (gatepass no.) in a txt file
-with open("Employee1.csv", "w", newline='') as csvfile:
+with open("Output/Employee1.csv", "w", newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(["Name", "GatePass No"])
     #using for loop to execute the code to all the gaepass at the sametime
